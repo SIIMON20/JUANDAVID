@@ -1,0 +1,38 @@
+body{
+    background-image: url(../img/glich.jpg); 
+    margin: 0;
+    padding: 1px;
+    height: 100%;
+    font-family: times new roman;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+
+
+}
+h1{
+    color: #0000(233, 238, 245);
+    font-size: 1000%;
+    padding: 20px;
+    height: 75px;
+}
+
+p{
+  font-size: 250%;
+    padding: 20px;
+    height: 75px;  
+}
+button{
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: none;
+    background: rgb(5, 129, 245);
+    color: white;
+}

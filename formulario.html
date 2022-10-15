@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/formulario.css">
+	<link rel="stylesheet" href="css/all.css">
+	<title>Formularios</title>
+</head>
+<body>
+	<main>
+		<section>
+		<h1>Formulario de registro</h1>
+		<form>
+			<div class="field">
+				<label for="#">Nombre</label>
+				<input type="text" id="search" name="Nombres" required autocomplete>
+
+			</div>
+			<div class="field">
+				<label for="#">Apellidos</label>
+				<input type="text" id="search" name="Apellidos" required autocomplete>
+			</div>
+
+			<div class="field">
+				<label>Modo de pago</label>
+				<select name="" id="">
+				<option selected disabled>Selecciona un estado</option>
+				<option>Desempleado</option>
+				<option>Trabajando</option>
+				<option>Estudiante</option>
+				</select>
+			</div>
+
+			<div class="field">
+				<label for="#">Email</label>
+				<input type="email" name="correo electónico" required autocomplete>
+			</div>
+
+			<div class="field">
+				<label for="#">Contraseña</label>
+				<input type="password" name="contraseña" required autocomplete>
+			</div>
+
+			<div class="field">
+				<label for="#">Teléfono</label>
+				<input type="number" name="celular" autocomplete>
+			</div>
+
+			<div class="textbox">
+				<label>Datos de intereses</label>
+				<textarea></textarea>
+			</div>
+
+			<div class="gustos">
+				<label for="#">¿Quieres recibir informacón sobre tu preferencia?</label>
+					<div><input type="radio" name="gustos" required autocomplete>SI</div>
+					<div><input type="radio" name="gustos" required autocomplete>NO</div> 
+				</div>
+
+				<div class="privacidad">
+					<input type="checkbox" required>
+					<label>He leído y acepto las políticas de privacidad</label>
+				</div>
+				<div class="submit">
+				<button>ENVIAR</button>
+				</div>
+		</form>
+		</section>
+	</main>
+	
+</body>
+</html>
